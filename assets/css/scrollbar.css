@@ -1,0 +1,18 @@
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-track{
+    width:10px;
+    background: rgb(12, 24, 50, 0.188);
+    border-left: 0 solid white;
+    border-right: 0 solid white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image:linear-gradient(315deg, #f2f2f2 0%, #3C948B 73%);
+    width: 0;
+    height: 5%;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 100px;
+}
